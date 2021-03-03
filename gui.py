@@ -1,4 +1,4 @@
-from cc import ccPDFmake
+from cc_to_pdf import ccPDFmake
 import tkinter as tk
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 from tkinter.messagebox import showinfo, showerror
