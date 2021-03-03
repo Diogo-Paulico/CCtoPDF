@@ -1,7 +1,8 @@
 # CCtoPDF
 Turns two pictures of the CC (Cartão de Cidadão) and turns it into a PDF containing both centered and in a real-life size inserting an optional watermark if supplied, usefull when you need to send a copy of your CC when accepting contracts from service companies.<br>
 The supplied card imaged should have decent quality and should be as trimmed as possible.<br>
-Tested image formats: .jpg, .jpeg, .png
+Tested image formats: .jpg, .jpeg, .png <br>
+An example of the program's output is provided [here](/docs/CC_to_PDF_example.pdf)
 
 ## Getting it up and Running
 
