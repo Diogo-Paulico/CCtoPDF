@@ -32,6 +32,7 @@ def ccPDFmake(frontFile, backFile, saveFile, text):
 def sentenceArgBuilder(argv):
     sentence = argv[4]
     for i in range(4, len(argv)):
+        sentence += " "
         sentence += argv[i]
     return sentence
 
@@ -42,4 +43,4 @@ if __name__ == '__main__':
     elif len(argv) == 4:
         ccPDFmake(argv[1], argv[2], argv[3], '')
     else:
-        print ("Use the correct syntax: python3 cc.py frontPicturePath backPicturePath generatedPDF_path [optionalWatermark]")
+        print ("Use the correct syntax: python3 cc.py frontPicturePath backPicturePath generatedPDF_path optionalWatermark")
