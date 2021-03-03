@@ -3,10 +3,6 @@ from reportlab.lib import utils
 from constants import *
 from sys import argv
 
-
-
-tempFile = None
-
 def ccPDFmake(frontFile, backFile, saveFile, text):
     canvas = Canvas(saveFile)
 
@@ -31,7 +27,7 @@ def ccPDFmake(frontFile, backFile, saveFile, text):
 
 def sentenceArgBuilder(argv):
     sentence = argv[4]
-    for i in range(4, len(argv)):
+    for i in range(5, len(argv)):
         sentence += " "
         sentence += argv[i]
     return sentence
