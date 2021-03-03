@@ -75,6 +75,3 @@ txt_edit.grid(row=3, column=0, sticky="nsew", pady=5)
 btn_save.grid(row=4, column=0, sticky="ew", padx=5)
 
 window.mainloop()
-
-
-
