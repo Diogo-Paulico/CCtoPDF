@@ -26,13 +26,13 @@ The GUI was built using *Tkinter* Python module, it looks very similiar in the 2
 The first two buttons will open context menus to open the image files of both faces of the card (Front and Back respectively), you may leave the text field blank if you do not want to have a watermark, press <kbd>Gerar</kbd> and a new context menu will open for you to choose where you want to save and the name you want to give the PDF file.
 #### Launching the GUI
 In the standalone version in Windows all you have to do is double click the downloaded .exe file, for the standalone Linux version you will have to use a console to navigate the directory where the file was saved and then ./programName
-In the non-standalone version, you will need to clone the repository, open a console, navigate to the program's folder and type:
+In the non-standalone version, you will need to get the non-standalone version from the Releases section, open a console, navigate to the program's folder and type:
 ```
 python3 ./gui.py
 ```
 
 ### CLI
-After cloning the repository to your machine, opening a console window and navigating to the program's folder.<br>
+After getting the non-standalone version from the Releases section, opening a console window and navigating to the program's folder.<br>
 The program takes the following arguments: Full path to the front face image file of the card, Full path to the back face image file of the card, Full path including the .pdf extension to save the generated PDF and optionally a sentence to be used as a watermark<br>
 Example use:
 ```
