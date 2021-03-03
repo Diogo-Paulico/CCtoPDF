@@ -1,5 +1,7 @@
 # CCtoPDF
-Turns two pictures of the CC (Cartão de Cidadão) and turns it into a PDF containing both centered and in a real-life size inserting an optional watermark if supplied, usefull when you need to send a copy of your CC when accepting contracts from service companies.
+Turns two pictures of the CC (Cartão de Cidadão) and turns it into a PDF containing both centered and in a real-life size inserting an optional watermark if supplied, usefull when you need to send a copy of your CC when accepting contracts from service companies.<br>
+The supplied card imaged should have decent quality and should be as trimmed as possible.<br>
+Tested image formats: .jpg, .jpeg, .png
 
 ## Getting it up and Running
 
@@ -29,7 +31,7 @@ python3 ./gui.py
 ```
 
 ### CLI
-After cloning the repository to your machine, opening a console window and navigating to the program's folder:
+After cloning the repository to your machine, opening a console window and navigating to the program's folder.<br>
 The program takes the following arguments: Full path to the front face image file of the card, Full path to the back face image file of the card, Full path including the .pdf extension to save the generated PDF and optionally a sentence to be used as a watermark<br>
 Example use:
 ```
